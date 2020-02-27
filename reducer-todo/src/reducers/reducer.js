@@ -16,7 +16,7 @@ export const initialState = {//an object containing an array of objects
   
     switch (action.type) {
   
-      case "TOGGLE_COMPLETE":
+      case "TOGGLE_COMPLETE" : 
   
       
   
