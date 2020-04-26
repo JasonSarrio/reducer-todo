@@ -27,7 +27,7 @@ export const reducer = (state, action) => {
 
       console.log("indexToChange", indexToChange);
 
-      let newTodoData = state.tasks.slice(); //Google says .slice() will clone the array. I want a clone cause I don't want to be tryna edit state, I want a copy of state
+      let newTodoData = state.tasks.slice(); // Google says .slice() will clone the array. I want a clone cause I don't want to be tryna edit state, I want a copy of state.
 
       console.log("this.state.todoData undefined? ", state);
       console.log("newTodoData undefiuned? ", newTodoData);
